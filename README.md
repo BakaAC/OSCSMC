@@ -40,8 +40,8 @@
 
 ## TODO
 
-- [ ] 收集常见的 Minecraft 启动器
-- [ ] 做出一套 Minecraft 启动器评分系统
+- [x] 收集常见的 Minecraft 启动器
+- [x] 做出一套 Minecraft 启动器评分系统
 - [ ] 针对所有启动器进行评级
 
 - [ ] 收录常见的 Mod Loaders

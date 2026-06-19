@@ -40,8 +40,8 @@ When it comes to any off-site links, prioritize adding official links and try to
 
 ## TODO
 
-- [ ] Collect common Minecraft launchers
-- [ ] Make a Minecraft Launcher scoring system
+- [x] Collect common Minecraft launchers
+- [x] Make a Minecraft Launcher scoring system
 - [ ] Rating for all launchers
 
 - [ ] Collect common mod loaders

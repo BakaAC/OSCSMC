@@ -12,7 +12,7 @@ HMCL (Hello Minecraft! Launcher) is a cross-platform Minecraft launcher develope
 
 ## Download Link
 
-Stable and Development Versions: [Official Website](https://hmcl.huangyuhui.net/download/) [Github Releases](https://github.com/HMCL-dev/HMCL/releases)
+Stable and Development Versions: [Official Website](https://hmcl.huangyuhui.net/download/) [GitHub Releases](https://github.com/HMCL-dev/HMCL/releases)
 
 ## Features
  - Supports importing Curse, MultiMC modpacks

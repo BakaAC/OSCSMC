@@ -5,7 +5,7 @@
 Minecraft launchers are essential for launching Minecraft, managing game profiles, and versions. Below, we have listed some of the launchers we have collected.
 
 ::: tip Note
-Unless otherwise specified, the software is open-source.
+Unless otherwise specified, the software is open-source. For launchers marked as core open source, BSL, or other special cases, use the detailed page as the authoritative description.
 :::
 
 ## Minecraft Launcher (Official)
@@ -38,7 +38,7 @@ BakaXL is a Minecraft launcher developed by [TT702](https://afdian.net/a/TT702).
 
 BakaXL has 4 major versions, with versions 1.X and 2.X already in EOL status.
 
-BakaXL 3.0 will soon announce its EOL date, and BakaXL 4.0 will be released this summer.
+The official BakaXL roadmap says BakaXL 3.0 is currently in security-maintenance-only status, while BakaXL 4.0 is still in development and its first public beta is planned for summer 2026.
 
 Go to [this page](./bakaxl) to learn more.
 
@@ -46,7 +46,7 @@ Go to [this page](./bakaxl) to learn more.
 
 MultiMC is a well-known and long-standing cross-platform Minecraft launcher.
 
-This software is released under [various open-source licenses](https://github.com/MultiMC/Launcher?tab=License-1-ov-file#readme).
+The source code is released under [Apache License 2.0](https://github.com/MultiMC/Launcher), while official branding assets and API keys are not reusable.
 
 Go to [this page](./multimc) to learn more.
 
@@ -56,7 +56,7 @@ Prism Launcher is a cross-platform Minecraft launcher.
 
 Prism Launcher is a fork of MultiMC and is not endorsed by MultiMC.
 
-This software is released under [various open-source licenses](https://github.com/PrismLauncher/PrismLauncher?tab=readme-ov-file).
+This software is released under [GPL-3.0-only](https://github.com/PrismLauncher/PrismLauncher).
 
 Go to [this page](./prism-launcher) to learn more.
 
@@ -66,15 +66,15 @@ PolyMC is a cross-platform Minecraft launcher.
 
 PolyMC is a fork of MultiMC and is not endorsed by MultiMC.
 
-This software is released under [various open-source licenses](https://github.com/PolyMC/PolyMC?tab=readme-ov-file).
+This software is released under [GPL-3.0-only](https://github.com/PolyMC/PolyMC).
 
 Go to [this page](./polymc) to learn more.
 
-## GDLauncher
+## GDLauncher (BSL 1.1)
 
-GDLauncher is a cross-platform Minecraft launcher developed by Davide Ceschia.
+GDLauncher is a cross-platform Minecraft launcher maintained by GorillaDevs Inc. The current Carbon version has been rewritten, and the old GDLauncher has been discontinued.
 
-This software is released under [various open-source licenses](https://github.com/gorilla-devs/GDLauncher).
+The GDLauncher Carbon repository is released under the [Business Source License 1.1](https://github.com/gorilla-devs/GDLauncher-Carbon).
 
 Go to [this page](./gdlauncher) to learn more.
 
