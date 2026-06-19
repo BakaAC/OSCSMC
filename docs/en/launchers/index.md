@@ -1,4 +1,4 @@
-# Launcher Introduction
+# Launcher Collection
 
 ## Basic Knowledge
 
@@ -28,7 +28,7 @@ Go to [this page](./plain-craft-launcher) to learn more.
 
 HMCL (Hello Minecraft! Launcher) is a cross-platform Minecraft launcher developed by [huanghongxun](https://afdian.net/a/huanghongxun).
 
-This program is released under the GPLv3 open-source license with [additional terms](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md).
+This program is released under the GPL-3.0 open-source license with [additional terms](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md).
 
 Go to [this page](./hello-minecraft-launcher) to learn more.
 

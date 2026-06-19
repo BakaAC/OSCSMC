@@ -6,24 +6,24 @@ MultiMC is a well-known, long-running cross-platform Minecraft launcher focused 
 
 > Last verified: 2026-06-19
 
-| Feature           | Details                                   |
-| ----------------- | ----------------------------------------- |
-| Login Methods     | Microsoft Account / Offline Account       |
-| Supported Mod Loaders | Forge / Fabric / Quilt / LiteLoader   |
-| Cross-Platform    | Windows / macOS / Linux                   |
+| Feature               | Details                                   |
+| --------------------- | ----------------------------------------- |
+| Authentication        | Microsoft Account / Offline Account       |
+| Supported Mod Loaders | Forge / Fabric / Quilt / LiteLoader       |
+| Platforms             | Windows / macOS / Linux                   |
 
-## Download Link
+## Downloads
 
 [MultiMC Official Website](https://multimc.org/#Download).
 
 ## Features
 
- - Manage multiple isolated Minecraft instances
- - Override Java, memory, window, and other settings per instance
- - Color-coded game logs for troubleshooting crashes and launch problems
- - Import and export instances
- - Import modpacks from Modrinth, CurseForge, FTB, Technic, ATLauncher, and other sources
- - Good compatibility with older Minecraft versions
+- Manage multiple isolated Minecraft instances
+- Override Java, memory, window, and other settings per instance
+- Color-coded game logs for troubleshooting crashes and launch problems
+- Import and export instances
+- Import modpacks from Modrinth, CurseForge, FTB, Technic, ATLauncher, and other sources
+- Good compatibility with older Minecraft versions
 
 ## License and Notes
 

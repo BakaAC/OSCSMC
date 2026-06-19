@@ -8,16 +8,16 @@ BakaXL 官方路線圖顯示，BakaXL 3.0 目前僅進行安全維護，BakaXL 4
 
 > 資訊更新時間：2026-06-19
 
-# BakaXL 3
+## BakaXL 3
 
 ![BakaXL 3](https://r2.oscsmc.baka.ac.cn/dc137f8a-6084-4d66-b9c4-13b4065603cc.png)
 
-| 特性              | 詳情                                           |
+| 特性                | 詳情                                             |
 | ----------------- | ---------------------------------------------- |
-| 登入方式          | 離線登入 / 正版登入 / 第三方皮膚站登入           |
-| 支援的模組載入器   | Forge / NeoForge / Fabric / LiteLoader / Quilt |
-| 跨平台            | 僅 Windows                                     |
-| 目前狀態          | 僅安全維護                                     |
+| 認證方式              | Microsoft 帳戶 / 離線帳戶 / 第三方皮膚站帳戶                  |
+| 支援的模組載入器          | Forge / NeoForge / Fabric / LiteLoader / Quilt |
+| 支援平台              | 僅 Windows                                      |
+| 目前狀態              | 僅安全維護                                          |
 
 ## 下載地址
 
@@ -25,21 +25,21 @@ BakaXL 官方路線圖顯示，BakaXL 3.0 目前僅進行安全維護，BakaXL 4
 
 ## 特色功能
 
- - 支援多個帳戶檔案
- - 高度個人化
- - 停用聊天追蹤與檢舉
+- 支援多個帳戶檔案
+- 高度個人化
+- 停用聊天追蹤與檢舉
 
-# BakaXL 4
+## BakaXL 4
 
 ::: tip 注意
 BakaXL 4.0 尚未正式發布，此處只是根據已知資訊做出的彙總
 :::
 
-| 特性              | 詳情                                           |
+| 特性                | 詳情                                             |
 | ----------------- | ---------------------------------------------- |
-| 登入方式          | 離線登入 / 正版登入 / 第三方皮膚站登入           |
-| 支援的模組載入器   | Forge / NeoForge / Fabric / LiteLoader / Quilt |
-| 跨平台            | Windows / macOS / Linux                        |
+| 認證方式              | Microsoft 帳戶 / 離線帳戶 / 第三方皮膚站帳戶                  |
+| 支援的模組載入器          | Forge / NeoForge / Fabric / LiteLoader / Quilt |
+| 支援平台              | Windows / macOS / Linux                        |
 
 ## 下載地址
 

@@ -11,7 +11,7 @@ hero:
       text: 即刻开始
       link: /guide/
     - theme: alt
-      text: 启动器列表
+      text: 启动器集合
       link: /launchers/
 
 features:
@@ -25,4 +25,3 @@ features:
     icon: 🚀
     details: 基于 VitePress 构建，只为了最快的访问速度
 ---
-

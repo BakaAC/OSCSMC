@@ -11,7 +11,7 @@ hero:
       text: 即時開始
       link: /zht/guide/
     - theme: alt
-      text: 啟動器列表
+      text: 啟動器集合
       link: /zht/launchers/
 
 features:
@@ -25,4 +25,3 @@ features:
     icon: 🚀
     details: 基於 VitePress 構建，只為了最快的訪問速度
 ---
-

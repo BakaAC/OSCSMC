@@ -1,4 +1,4 @@
-# 启动器介绍
+# 启动器集合
 
 ## 基础知识
 
@@ -28,7 +28,7 @@ PCL (Plain Craft Launcher) 是由 [龙腾猫跃](https://afdian.net/a/LTCat) 开
 
 HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://afdian.net/a/huanghongxun) 主导开发的跨平台 Minecraft 启动器。
 
-该程序在 GPLv3 开源协议下发布, 同时附有[附加条款](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md)。
+该程序在 GPL-3.0 开源协议下发布，同时附有 [附加条款](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md)。
 
 前往[此页面](./hello-minecraft-launcher)了解更多。
 

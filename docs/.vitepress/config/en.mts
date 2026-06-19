@@ -9,7 +9,7 @@ export const en = defineConfig({
     nav: [
       { text: 'Home', link: '/en/' },
       { text: 'Get Started', link: '/en/guide/' },
-      { text: 'Launcher List', link: '/en/launchers/' },
+      { text: 'Launcher Collection', link: '/en/launchers/' },
       { text: 'Contribution Guidelines', link: '/en/contribute/contributing' },
       { text: 'AFDian', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
@@ -22,9 +22,9 @@ export const en = defineConfig({
         ]
       },
       {
-        text: 'Launcher List',
+        text: 'Launcher Collection',
         items: [
-          { text: 'What launcher is there?', link: '/en/launchers/' },
+          { text: 'Launcher Collection', link: '/en/launchers/' },
           { text: 'Minecraft Launcher', link: '/en/launchers/minecraft-launcher' },
           { text: 'PCL (Plain Craft Launcher)', link: '/en/launchers/plain-craft-launcher' },
           { text: 'HMCL (Hello Minecraft! Launcher)', link: '/en/launchers/hello-minecraft-launcher' },
@@ -38,7 +38,7 @@ export const en = defineConfig({
       {
         text: 'Resource Website',
         items: [
-          { text: '我上哪找资源', link: '/en/addons/' },
+          { text: 'Resource sites', link: '/en/addons/' },
         ]
       }
     ],

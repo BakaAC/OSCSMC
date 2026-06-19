@@ -9,7 +9,7 @@ export const zhs = defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '即刻开始', link: '/guide/' },
-      { text: '启动器列表', link: '/launchers/' },
+      { text: '启动器集合', link: '/launchers/' },
       { text: '贡献指南', link: '/contribute/contributing' },
       { text: '爱发电', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
@@ -24,7 +24,7 @@ export const zhs = defineConfig({
       {
         text: '启动器集合',
         items: [
-          { text: '有什么启动器', link: '/launchers/' },
+          { text: '启动器集合', link: '/launchers/' },
           { text: 'Minecraft Launcher', link: '/launchers/minecraft-launcher' },
           { text: 'PCL (Plain Craft Launcher)', link: '/launchers/plain-craft-launcher' },
           { text: 'HMCL (Hello Minecraft! Launcher)', link: '/launchers/hello-minecraft-launcher' },

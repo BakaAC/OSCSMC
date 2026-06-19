@@ -4,6 +4,7 @@ import { zhs } from './zhs.mts'
 import { zht } from './zht.mts'
 
 export default defineConfig({
+  cleanUrls: true,
   locales: {
     root: { label: '简体中文', ...zhs },
     en: { label: 'English', ...en },

@@ -6,25 +6,25 @@ GDLauncher is a cross-platform Minecraft launcher maintained by GorillaDevs Inc.
 
 > Last verified: 2026-06-19
 
-| Feature           | Details                               |
-| ----------------- | ------------------------------------- |
-| Login Methods     | Microsoft Account / Multi-account management |
-| Supported Mod Loaders | Forge / NeoForge / Fabric / Quilt |
-| Cross-Platform    | Windows / macOS / Linux               |
+| Feature               | Details                                      |
+| --------------------- | -------------------------------------------- |
+| Authentication        | Microsoft Account / Multi-account management |
+| Supported Mod Loaders | Forge / NeoForge / Fabric / Quilt            |
+| Platforms             | Windows / macOS / Linux                      |
 
-## Download Link
+## Downloads
 
 [GDLauncher Official Website](https://gdlauncher.com/).
 
 ## Features
 
- - Install Minecraft versions, mod loaders, mods, and modpacks
- - Supports CurseForge, Modrinth, and other content platforms
- - Built-in Java manager that can install the correct Java runtime
- - Built-in auto updater
- - Multi-account support
- - Low-end device mode
- - Planned import and export support for CurseForge, MultiMC, ATLauncher, Technic, Prism, Modrinth, FTB, and more
+- Install Minecraft versions, mod loaders, mods, and modpacks
+- Supports CurseForge, Modrinth, and other content platforms
+- Built-in Java manager that can install the correct Java runtime
+- Built-in auto updater
+- Multi-account support
+- Low-end device mode
+- Planned import and export support for CurseForge, MultiMC, ATLauncher, Technic, Prism, Modrinth, FTB, and more
 
 ## License and Status
 

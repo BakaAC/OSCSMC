@@ -11,7 +11,7 @@ hero:
       text: Get Started
       link: /en/guide/
     - theme: alt
-      text: Launcher List
+      text: Launcher Collection
       link: /en/launchers/
 
 features:
@@ -25,4 +25,3 @@ features:
     icon: 🚀
     details: Built on VitePress, just for the fastest access speed
 ---
-

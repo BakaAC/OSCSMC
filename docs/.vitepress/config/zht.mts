@@ -9,7 +9,7 @@ export const zht = defineConfig({
     nav: [
       { text: '首頁', link: '/zht/' },
       { text: '即時開始', link: '/zht/guide/' },
-      { text: '啟動器列表', link: '/zht/launchers/' },
+      { text: '啟動器集合', link: '/zht/launchers/' },
       { text: '貢獻指南', link: '/zht/contribute/contributing' },
       { text: '愛發電', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
@@ -24,7 +24,7 @@ export const zht = defineConfig({
       {
         text: '啟動器集合',
         items: [
-          { text: '有什麼啟動器', link: '/zht/launchers/' },
+          { text: '啟動器集合', link: '/zht/launchers/' },
           { text: 'Minecraft Launcher', link: '/zht/launchers/minecraft-launcher' },
           { text: 'PCL (Plain Craft Launcher)', link: '/zht/launchers/plain-craft-launcher' },
           { text: 'HMCL (Hello Minecraft! Launcher)', link: '/zht/launchers/hello-minecraft-launcher' },
@@ -38,7 +38,7 @@ export const zht = defineConfig({
       {
         text: '資源網站',
         items: [
-          { text: '我上哪找资源', link: '/zht/addons/' },
+          { text: '我上哪找資源', link: '/zht/addons/' },
         ]
       }
     ],
