@@ -52,6 +52,14 @@ The source code is released under [Apache License 2.0](https://github.com/MultiM
 
 Go to [this page](./multimc) to learn more.
 
+## SKCraft Launcher
+
+SKCraft Launcher is an open-source Minecraft modpack launcher platform maintained by [SKCraft](https://github.com/SKCraft), focused on letting modpack authors customize, build, and distribute their own branded launcher.
+
+The launcher itself is released under [LGPL-3.0](https://github.com/SKCraft/Launcher/blob/master/LICENSE.txt), while third-party contributions also need to follow the 3-clause BSD terms listed in LICENSE.txt.
+
+Go to [this page](./skcraft-launcher) to learn more.
+
 ## Prism Launcher
 
 Prism Launcher is a cross-platform Minecraft launcher.

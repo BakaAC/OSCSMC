@@ -52,6 +52,14 @@ MultiMC 是知名且歷史悠久的跨平台 Minecraft 啟動器。
 
 前往[此頁面](./multimc)了解更多。
 
+## SKCraft Launcher
+
+SKCraft Launcher 是由 [SKCraft](https://github.com/SKCraft) 維護的開源 Minecraft 整合包啟動器平台，重點是讓整合包作者自行定制、構建和分發帶品牌的啟動器。
+
+該軟體本體在 [LGPL-3.0](https://github.com/SKCraft/Launcher/blob/master/LICENSE.txt) 下發布，第三方貢獻還需遵循 LICENSE.txt 中列出的 3-clause BSD 條款。
+
+前往[此頁面](./skcraft-launcher)了解更多。
+
 ## Prism Launcher
 
 Prism Launcher 是一款跨平台 Minecraft 啟動器。
