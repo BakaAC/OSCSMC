@@ -27,12 +27,16 @@ export const zht = defineConfig({
           { text: '啟動器集合', link: '/zht/launchers/' },
           { text: 'Minecraft Launcher', link: '/zht/launchers/minecraft-launcher' },
           { text: 'PCL (Plain Craft Launcher)', link: '/zht/launchers/plain-craft-launcher' },
+          { text: 'PCL Community Edition', link: '/zht/launchers/pcl-community-edition' },
           { text: 'HMCL (Hello Minecraft! Launcher)', link: '/zht/launchers/hello-minecraft-launcher' },
           { text: 'BakaXL', link: '/zht/launchers/bakaxl' },
           { text: 'MultiMC', link: '/zht/launchers/multimc' },
+          { text: 'SKCraft Launcher', link: '/zht/launchers/skcraft-launcher' },
+          { text: 'Helios Launcher', link: '/zht/launchers/helios-launcher' },
           { text: 'Prism Launcher', link: '/zht/launchers/prism-launcher' },
           { text: 'PolyMC', link: '/zht/launchers/polymc' },
           { text: 'GDLauncher', link: '/zht/launchers/gdlauncher' },
+          { text: 'X Minecraft Launcher', link: '/zht/launchers/x-minecraft-launcher' },
         ]
       },
       {

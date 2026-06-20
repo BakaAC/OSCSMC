@@ -27,12 +27,16 @@ export const en = defineConfig({
           { text: 'Launcher Collection', link: '/en/launchers/' },
           { text: 'Minecraft Launcher', link: '/en/launchers/minecraft-launcher' },
           { text: 'PCL (Plain Craft Launcher)', link: '/en/launchers/plain-craft-launcher' },
+          { text: 'PCL Community Edition', link: '/en/launchers/pcl-community-edition' },
           { text: 'HMCL (Hello Minecraft! Launcher)', link: '/en/launchers/hello-minecraft-launcher' },
           { text: 'BakaXL', link: '/en/launchers/bakaxl' },
           { text: 'MultiMC', link: '/en/launchers/multimc' },
+          { text: 'SKCraft Launcher', link: '/en/launchers/skcraft-launcher' },
+          { text: 'Helios Launcher', link: '/en/launchers/helios-launcher' },
           { text: 'Prism Launcher', link: '/en/launchers/prism-launcher' },
           { text: 'PolyMC', link: '/en/launchers/polymc' },
           { text: 'GDLauncher', link: '/en/launchers/gdlauncher' },
+          { text: 'X Minecraft Launcher', link: '/en/launchers/x-minecraft-launcher' },
         ]
       },
       {
