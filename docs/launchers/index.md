@@ -68,6 +68,14 @@ SKCraft Launcher 是由 [SKCraft](https://github.com/SKCraft) 维护的开源 Mi
 
 前往[此页面](./skcraft-launcher)了解更多。
 
+## Helios Launcher
+
+Helios Launcher 是由 [Daniel Scalzi](https://github.com/dscalzi) 维护的 Electron / Node.js 自定义 Minecraft 启动器，面向整合服务器分发场景，官方说明强调由启动器处理 Java、Forge 与其他 Mod 的安装。
+
+该软件在 [MIT](https://github.com/dscalzi/HeliosLauncher/blob/master/LICENSE.txt) 协议下发布。
+
+前往[此页面](./helios-launcher)了解更多。
+
 ## Prism Launcher
 
 Prism Launcher 是一款跨平台 Minecraft 启动器。

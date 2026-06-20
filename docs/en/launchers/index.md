@@ -68,6 +68,14 @@ The launcher itself is released under [LGPL-3.0](https://github.com/SKCraft/Laun
 
 Go to [this page](./skcraft-launcher) to learn more.
 
+## Helios Launcher
+
+Helios Launcher is a custom Minecraft launcher maintained by [Daniel Scalzi](https://github.com/dscalzi) and built with Electron and Node.js. It is focused on modded server distribution, with the launcher handling Java, Forge, and other mod installation.
+
+This software is released under the [MIT](https://github.com/dscalzi/HeliosLauncher/blob/master/LICENSE.txt) license.
+
+Go to [this page](./helios-launcher) to learn more.
+
 ## Prism Launcher
 
 Prism Launcher is a cross-platform Minecraft launcher.
