@@ -126,6 +126,12 @@ PandoraLauncher is a modern Minecraft launcher written in Rust, emphasizing powe
 
 Go to [this page](./pandoralauncher) to learn more.
 
+## ElyPrismLauncher
+
+ElyPrismLauncher (also known as PineconeMC) is a fork of Prism Launcher that features native Ely.by account integration and built-in screenshot management. This software is released under the [GPL-3.0-only](https://github.com/ElyPrismLauncher/Launcher/blob/develop/LICENSE) license.
+
+Go to [this page](./elyprismlauncher) to learn more.
+
 ## Why is the launcher I use/develop not listed?
 
 Minecraft, as a long-standing community, has produced countless launchers. We do not have the time and energy to use and report on each one.

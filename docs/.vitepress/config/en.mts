@@ -39,6 +39,7 @@ export const en = defineConfig({
           { text: 'X Minecraft Launcher', link: '/en/launchers/x-minecraft-launcher' },
           { text: 'ATLauncher', link: '/en/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/en/launchers/pandoralauncher' },
+          { text: 'ElyPrismLauncher', link: '/en/launchers/elyprismlauncher' },
         ]
       },
       {

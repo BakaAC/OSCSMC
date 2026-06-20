@@ -39,6 +39,7 @@ export const zhs = defineConfig({
           { text: 'X Minecraft Launcher', link: '/launchers/x-minecraft-launcher' },
           { text: 'ATLauncher', link: '/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/launchers/pandoralauncher' },
+          { text: 'ElyPrismLauncher', link: '/launchers/elyprismlauncher' },
         ]
       },
       {

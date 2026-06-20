@@ -39,6 +39,7 @@ export const zht = defineConfig({
           { text: 'X Minecraft Launcher', link: '/zht/launchers/x-minecraft-launcher' },
           { text: 'ATLauncher', link: '/zht/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/zht/launchers/pandoralauncher' },
+          { text: 'ElyPrismLauncher', link: '/zht/launchers/elyprismlauncher' },
         ]
       },
       {
