@@ -2,7 +2,7 @@
 
 ATLauncher 是一款功能强大的 Minecraft 启动器，其核心特色是整合了多个主流模组包平台（如 CurseForge、Modrinth、Technic 和 FTB），允许用户快速浏览、下载并安装各种模组包。它旨在提供简单且高效的实例管理体验。
 
-![ATLauncher Logo](https://atlauncher.com/assets/img/logo.png)
+![ATLauncher](https://r2.oscsmc.baka.ac.cn/45c9e321-bd2a-429a-ad81-1a12047bcc18.png)
 
 > 信息更新时间：2026-06-20
 

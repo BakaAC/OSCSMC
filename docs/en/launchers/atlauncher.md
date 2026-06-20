@@ -2,7 +2,7 @@
 
 ATLauncher is a powerful Minecraft launcher whose core feature is the integration of multiple mainstream modpack platforms (such as CurseForge, Modrinth, Technic, and FTB), allowing users to quickly browse, download, and install various modpacks. It aims to provide a simple and efficient instance management experience.
 
-![ATLauncher Logo](https://atlauncher.com/assets/img/logo.png)
+![ATLauncher](https://r2.oscsmc.baka.ac.cn/45c9e321-bd2a-429a-ad81-1a12047bcc18.png)
 
 > Last verified: 2026-06-20
 
