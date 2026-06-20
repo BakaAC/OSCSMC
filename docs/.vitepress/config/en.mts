@@ -38,6 +38,7 @@ export const en = defineConfig({
           { text: 'GDLauncher', link: '/en/launchers/gdlauncher' },
           { text: 'X Minecraft Launcher', link: '/en/launchers/x-minecraft-launcher' },
           { text: 'ATLauncher', link: '/en/launchers/atlauncher' },
+          { text: 'PandoraLauncher', link: '/en/launchers/pandoralauncher' },
         ]
       },
       {

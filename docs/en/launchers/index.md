@@ -112,6 +112,20 @@ This software is released under the [MIT](https://github.com/Voxelum/x-minecraft
 
 Go to [this page](./x-minecraft-launcher) to learn more.
 
+## ATLauncher
+
+ATLauncher is a powerful Minecraft launcher widely popular for its integration of multiple mainstream modpack platforms (such as CurseForge, Modrinth, etc.).
+
+It aims to provide a simple and efficient instance management experience. This software is released under the [GPL-3.0](https://github.com/ATLauncher/ATLauncher/blob/master/LICENSE) license.
+
+Go to [this page](./atlauncher) to learn more.
+
+## PandoraLauncher
+
+PandoraLauncher is a modern Minecraft launcher written in Rust, emphasizing powerful multi-instance synchronization and storage management features (such as hard-linking mods to save space) within a clean interface. This software is released under the [MIT](https://github.com/Moulberry/PandoraLauncher/blob/master/LICENSE) license.
+
+Go to [this page](./pandoralauncher) to learn more.
+
 ## Why is the launcher I use/develop not listed?
 
 Minecraft, as a long-standing community, has produced countless launchers. We do not have the time and energy to use and report on each one.
