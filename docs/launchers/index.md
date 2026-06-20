@@ -26,6 +26,14 @@ PCL 使用 [PCL 分发有限许可](https://github.com/Meloong-Git/PCL/blob/main
 
 前往[此页面](./plain-craft-launcher)了解更多。
 
+## PCL Community Edition (核心开源)
+
+PCL Community Edition (PCL-CE) 是由 [PCL Community](https://github.com/PCL-Community) 维护的 PCL 社区版，基于 PCL 开源代码二次开发，包含主线暂未制作的功能和改进。
+
+PCL-CE 仓库中 `Plain Craft Launcher 2/` 使用自定义许可证，其余目录使用 [Apache License 2.0](https://github.com/PCL-Community/PCL-CE/blob/dev/LICENSE)。
+
+前往[此页面](./pcl-community-edition)了解更多。
+
 ## HMCL
 
 HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://afdian.net/a/huanghongxun) 主导开发的跨平台 Minecraft 启动器。

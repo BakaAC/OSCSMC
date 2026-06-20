@@ -26,6 +26,14 @@ PCL uses the [PCL limited distribution license](https://github.com/Meloong-Git/P
 
 Go to [this page](./plain-craft-launcher) to learn more.
 
+## PCL Community Edition (Core Open Source)
+
+PCL Community Edition (PCL-CE) is a community edition maintained by [PCL Community](https://github.com/PCL-Community). It is developed from PCL's open-source code and includes features and improvements not yet implemented in the mainline PCL branch.
+
+In the PCL-CE repository, `Plain Craft Launcher 2/` uses a custom license, while all other directories use [Apache License 2.0](https://github.com/PCL-Community/PCL-CE/blob/dev/LICENSE).
+
+Go to [this page](./pcl-community-edition) to learn more.
+
 ## HMCL
 
 HMCL (Hello Minecraft! Launcher) is a cross-platform Minecraft launcher developed by [huanghongxun](https://github.com/huanghongxun).
