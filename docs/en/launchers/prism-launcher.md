@@ -4,13 +4,13 @@ Prism Launcher is a cross-platform Minecraft launcher. It is a fork of MultiMC a
 
 ![Prism Launcher](https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/main/public/img/screenshots/LauncherDark.png)
 
-> Last verified: 2026-06-19
+> Last verified: 2026-06-20
 
 | Feature               | Details                                        |
 | --------------------- | ---------------------------------------------- |
 | Authentication        | Microsoft Account / Offline Account            |
-| Supported Mod Loaders | Forge / NeoForge / Fabric / LiteLoader / Quilt |
-| Platforms             | Windows / macOS / Linux / Steam Deck           |
+| Supported Mod Loaders | Forge / NeoForge / Fabric / LiteLoader / Rift / Quilt |
+| Platforms             | Windows / macOS / Linux                        |
 
 ## Downloads
 
@@ -22,6 +22,7 @@ Prism Launcher is a cross-platform Minecraft launcher. It is a fork of MultiMC a
 - Create instances from Modrinth, CurseForge, FTB, Technic, ATLauncher, and other sources
 - Install and update mods and modpacks inside the launcher
 - Fine-grained instance, Java, and environment variable settings
+- Steam Deck installation entry
 - Weblate-based translation workflow
 - Stable and development builds are available
 

@@ -4,13 +4,13 @@ PolyMC is a cross-platform Minecraft launcher. It is a fork of MultiMC and is no
 
 ![PolyMC](https://raw.githubusercontent.com/PolyMC/polymc.github.io/master/src/img/screenshots/LauncherDark.png)
 
-> Last verified: 2026-06-19
+> Last verified: 2026-06-20
 
-| Feature               | Details                                   |
-| --------------------- | ----------------------------------------- |
-| Authentication        | Microsoft Account / Offline Account       |
-| Supported Mod Loaders | Forge / Fabric / Quilt / LiteLoader       |
-| Platforms             | Windows / macOS / Linux / Steam Deck      |
+| Feature               | Details                             |
+| --------------------- | ----------------------------------- |
+| Authentication        | Microsoft Account / Offline Account |
+| Supported Mod Loaders | Forge / NeoForge / Fabric / LiteLoader / Quilt |
+| Platforms             | Windows / macOS / Linux             |
 
 ## Downloads
 
@@ -22,7 +22,7 @@ PolyMC is a cross-platform Minecraft launcher. It is a fork of MultiMC and is no
 - Import and export instances
 - Create instances from Modrinth, CurseForge, FTB, Technic, ATLauncher, and other sources
 - Fine-grained Java and instance settings
-- Download entries for Windows, macOS, Linux, and Steam Deck
+- Development builds are available
 - Translation project hosted on Weblate
 
 ## Open Source License

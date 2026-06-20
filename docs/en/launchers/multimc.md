@@ -4,13 +4,13 @@ MultiMC is a well-known, long-running cross-platform Minecraft launcher focused 
 
 ![MultiMC](https://multimc.org/images/screenshots/main.png)
 
-> Last verified: 2026-06-19
+> Last verified: 2026-06-20
 
-| Feature               | Details                                   |
-| --------------------- | ----------------------------------------- |
-| Authentication        | Microsoft Account / Offline Account       |
-| Supported Mod Loaders | Forge / Fabric / Quilt / LiteLoader       |
-| Platforms             | Windows / macOS / Linux                   |
+| Feature               | Details                             |
+| --------------------- | ----------------------------------- |
+| Authentication        | Microsoft Account / Offline Account |
+| Supported Mod Loaders | Forge / Fabric / LiteLoader / Quilt |
+| Platforms             | Windows / macOS / Linux             |
 
 ## Downloads
 
@@ -25,7 +25,7 @@ MultiMC is a well-known, long-running cross-platform Minecraft launcher focused 
 - Import modpacks from Modrinth, CurseForge, FTB, Technic, ATLauncher, and other sources
 - Good compatibility with older Minecraft versions
 
-## License and Notes
+## Open Source License
 
 The MultiMC launcher source code is released under the [Apache License 2.0](https://github.com/MultiMC/Launcher).
 

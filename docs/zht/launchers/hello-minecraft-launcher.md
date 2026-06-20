@@ -1,8 +1,10 @@
 # HMCL (Hello Minecraft! Launcher)
 
-HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://afdian.net/a/huanghongxun) 主導開發的跨平台 Minecraft 啟動器。
+HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://github.com/huanghongxun) 主導開發的開源、跨平台 Minecraft 啟動器。
 
 ![Hello Minecraft! Launcher](http://r2.oscsmc.baka.ac.cn/b49622e3-b480-4902-8bd8-a56aa5971bd2.png)
+
+> 資訊更新時間：2026-06-20
 
 | 特性                | 詳情                                             |
 | ----------------- | ---------------------------------------------- |
@@ -12,14 +14,18 @@ HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://afdian.net/a/huan
 
 ## 下載地址
 
-正式版和開發版：[官網](https://hmcl.huangyuhui.net/download/) [GitHub Releases](https://github.com/HMCL-dev/HMCL/releases)
+正式版和開發版：[官網](https://hmcl.huangyuhui.net/download/) / [GitHub Releases](https://github.com/HMCL-dev/HMCL/releases)。
 
 ## 特色功能
 
+- 支援模組管理
+- 支援遊戲自動安裝
+- 支援建立整合包
 - 支援匯入 Curse、MultiMC 整合包
 - 支援匯出 HMCL、MultiMC 整合包
-- 個人化主題
+- 支援介面自訂
+- 支援多人連線幫助與文件
 
 ## 開源協議
 
-[GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) 和 [附加條款](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md)。
+[GPL-3.0](https://github.com/HMCL-dev/HMCL/blob/main/LICENSE) 和 [附加條款](https://github.com/HMCL-dev/HMCL/blob/main/docs/README_zh_Hant.md)。

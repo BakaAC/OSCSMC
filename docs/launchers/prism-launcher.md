@@ -4,13 +4,13 @@ Prism Launcher 是一款跨平台 Minecraft 启动器。它是 MultiMC 的一个
 
 ![Prism Launcher](https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/main/public/img/screenshots/LauncherDark.png)
 
-> 信息更新时间：2026-06-19
+> 信息更新时间：2026-06-20
 
 | 特性                | 详情                                             |
 | ----------------- | ---------------------------------------------- |
 | 认证方式              | Microsoft 账户 / 离线账户                            |
-| 支持的模组加载器          | Forge / NeoForge / Fabric / LiteLoader / Quilt |
-| 支持平台              | Windows / macOS / Linux / Steam Deck           |
+| 支持的模组加载器          | Forge / NeoForge / Fabric / LiteLoader / Rift / Quilt |
+| 支持平台              | Windows / macOS / Linux                        |
 
 ## 下载地址
 
@@ -22,6 +22,7 @@ Prism Launcher 是一款跨平台 Minecraft 启动器。它是 MultiMC 的一个
 - 支持从 Modrinth、CurseForge、FTB、Technic、ATLauncher 等来源创建实例
 - 支持启动器内安装和更新模组、整合包
 - 支持细粒度实例设置、Java 设置和环境变量设置
+- 支持 Steam Deck 安装入口
 - 支持 Weblate 多语言翻译协作
 - 提供稳定版和开发版构建
 

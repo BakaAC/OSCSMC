@@ -22,13 +22,15 @@ There are two versions, PCL (outdated) and PCL2.
 
 Currently, PCL is commonly used to refer to PCL2.
 
+PCL uses the [PCL limited distribution license](https://github.com/Meloong-Git/PCL/blob/main/LICENCE) and is not fully open source.
+
 Go to [this page](./plain-craft-launcher) to learn more.
 
 ## HMCL
 
-HMCL (Hello Minecraft! Launcher) is a cross-platform Minecraft launcher developed by [huanghongxun](https://afdian.net/a/huanghongxun).
+HMCL (Hello Minecraft! Launcher) is a cross-platform Minecraft launcher developed by [huanghongxun](https://github.com/huanghongxun).
 
-This program is released under the GPL-3.0 open-source license with [additional terms](https://github.com/HMCL-dev/HMCL/blob/main/README_cn.md).
+This program is released under the [GPL-3.0](https://github.com/HMCL-dev/HMCL/blob/main/LICENSE) open-source license with [additional terms](https://github.com/HMCL-dev/HMCL/blob/main/docs/README.md).
 
 Go to [this page](./hello-minecraft-launcher) to learn more.
 
@@ -38,7 +40,7 @@ BakaXL is a Minecraft launcher developed by [TT702](https://afdian.net/a/TT702).
 
 BakaXL has 4 major versions, with versions 1.X and 2.X already in EOL status.
 
-The official BakaXL roadmap says BakaXL 3.0 is currently in security-maintenance-only status, while BakaXL 4.0 is still in development and its first public beta is planned for summer 2026.
+The official BakaXL roadmap says BakaXL 3.0 is currently in security-maintenance-only status. BakaXL 4.0 now has early preview builds, but the official documentation still warns that it should not be used as a primary game launcher.
 
 Go to [this page](./bakaxl) to learn more.
 
