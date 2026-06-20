@@ -2,7 +2,7 @@
 
 ElyPrismLauncher（又称 PineconeMC）是 Prism Launcher 的一个分支版本，其核心特性是集成了对 Ely.by 账户的原生支持，同时保留了对微软账户（MSA）的支持。该启动器旨在为使用 Ely.by 皮肤系统和认证服务的玩家提供无缝且强大的 Minecraft 启动与管理体验。
 
-![ElyPrismLauncher Logo](https://raw.githubusercontent.com/ElyPrismLauncher/Launcher/develop/program_info/ru.pineconemc.launcher.logo.svg)
+![ElyPrismLauncher](https://elyprismlauncher.github.io/assets/png/screenshot.png)
 
 > 信息更新时间：2026-06-20
 
