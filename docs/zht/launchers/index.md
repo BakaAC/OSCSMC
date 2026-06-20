@@ -80,6 +80,14 @@ GDLauncher Carbon 倉庫使用 [Business Source License 1.1](https://github.com/
 
 前往[此頁面](./gdlauncher)了解更多。
 
+## X Minecraft Launcher
+
+X Minecraft Launcher (XMCL) 是由 [Voxelum](https://github.com/Voxelum) 維護的跨平台 Minecraft 啟動器，官方介紹為具有現代使用者體驗、重視磁碟空間效率的開源啟動器。
+
+該軟體在 [MIT](https://github.com/Voxelum/x-minecraft-launcher/blob/master/LICENSE) 協議下發布。
+
+前往[此頁面](./x-minecraft-launcher)了解更多。
+
 ## 為什麼我使用 / 開發的啟動器沒有列出來
 
 Minecraft 作為一個歷史悠久的社區，所誕生的啟動器數不勝數，我們沒有時間和精力去一個個使用並且給出使用報告。

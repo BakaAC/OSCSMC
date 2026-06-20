@@ -80,6 +80,14 @@ The GDLauncher Carbon repository is released under the [Business Source License 
 
 Go to [this page](./gdlauncher) to learn more.
 
+## X Minecraft Launcher
+
+X Minecraft Launcher (XMCL) is a cross-platform Minecraft launcher maintained by [Voxelum](https://github.com/Voxelum). Its official description presents it as an open-source launcher with modern UX and a disk-efficient way to manage mods.
+
+This software is released under the [MIT](https://github.com/Voxelum/x-minecraft-launcher/blob/master/LICENSE) license.
+
+Go to [this page](./x-minecraft-launcher) to learn more.
+
 ## Why is the launcher I use/develop not listed?
 
 Minecraft, as a long-standing community, has produced countless launchers. We do not have the time and energy to use and report on each one.
