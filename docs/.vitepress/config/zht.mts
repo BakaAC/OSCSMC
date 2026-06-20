@@ -37,6 +37,7 @@ export const zht = defineConfig({
           { text: 'PolyMC', link: '/zht/launchers/polymc' },
           { text: 'GDLauncher', link: '/zht/launchers/gdlauncher' },
           { text: 'X Minecraft Launcher', link: '/zht/launchers/x-minecraft-launcher' },
+          { text: 'ATLauncher', link: '/zht/launchers/atlauncher' },
         ]
       },
       {

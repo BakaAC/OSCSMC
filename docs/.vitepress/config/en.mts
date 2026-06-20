@@ -37,6 +37,7 @@ export const en = defineConfig({
           { text: 'PolyMC', link: '/en/launchers/polymc' },
           { text: 'GDLauncher', link: '/en/launchers/gdlauncher' },
           { text: 'X Minecraft Launcher', link: '/en/launchers/x-minecraft-launcher' },
+          { text: 'ATLauncher', link: '/en/launchers/atlauncher' },
         ]
       },
       {
