@@ -4,7 +4,7 @@ HMCL (Hello Minecraft! Launcher) is an open-source, cross-platform Minecraft lau
 
 ![Hello Minecraft! Launcher](https://r2.oscsmc.baka.ac.cn/b49622e3-b480-4902-8bd8-a56aa5971bd2.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                                                        |
 | --------------------- | -------------------------------------------------------------- |

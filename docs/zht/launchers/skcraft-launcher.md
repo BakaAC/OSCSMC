@@ -4,7 +4,7 @@ SKCraft Launcher 是由 SKCraft 維護的開源 Minecraft 整合包啟動器平�
 
 ![SKCraft Launcher](https://raw.githubusercontent.com/SKCraft/Launcher/master/readme/launcher.png)
 
-> 資訊更新時間：2026-06-20
+> 資訊更新時間：2026-08-01
 
 | 特性       | 詳情                                  |
 | -------- | ----------------------------------- |

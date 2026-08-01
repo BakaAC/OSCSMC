@@ -4,7 +4,7 @@ PolyMC 是一款跨平台 Minecraft 启动器。它是 MultiMC 的一个分支�
 
 ![PolyMC](https://raw.githubusercontent.com/PolyMC/polymc.github.io/master/src/img/screenshots/LauncherDark.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                                  |
 | ----------------- | ----------------------------------- |

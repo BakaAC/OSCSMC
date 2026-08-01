@@ -4,7 +4,7 @@ PandoraLauncher (Pandora) is a modern Minecraft launcher written in Rust (based 
 
 ![PandoraLauncher](https://raw.githubusercontent.com/Moulberry/PandoraLauncher/refs/heads/master/screenshots/instance.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                           |
 | --------------------- | --------------------------------- |

@@ -4,7 +4,7 @@ PCL2 (Plain Craft Launcher 2) 是由 [龍騰貓躍](https://afdian.net/a/LTCat) 
 
 ![Plain Craft Launcher 2](https://r2.oscsmc.baka.ac.cn/c80cb96e-cbdb-4513-bc1e-4e935e15f9ff.png)
 
-> 資訊更新時間：2026-06-20
+> 資訊更新時間：2026-08-01
 
 | 特性                | 詳情                                             |
 | ----------------- | ---------------------------------------------- |

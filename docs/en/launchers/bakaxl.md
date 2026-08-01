@@ -2,7 +2,7 @@
 
 BakaXL is a Minecraft launcher developed by [TT702](https://afdian.net/a/TT702). BakaXL has 4 major versions; versions 1.X and 2.X are end-of-life. The official roadmap marks BakaXL 3.0 as security-maintenance-only, while BakaXL 4.0 is currently in early preview.
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 # BakaXL 3
 
@@ -44,7 +44,7 @@ BakaXL 4 is the next generation of BakaXL. The official documentation says it is
 
 ## Downloads
 
-BakaXL 4 early preview: [GitHub Releases](https://github.com/BakaXL-Launcher/BakaXL/releases). The latest verified Bunny Channel build is `4.0.0+bunny-03b372f`, published on 2026-06-20.
+BakaXL 4 early preview: [GitHub Releases](https://github.com/BakaXL-Launcher/BakaXL/releases). The latest verified Bunny Channel build is `4.0.0+bunny-cd522c4`, published on 2026-07-28.
 
 ## Features
 

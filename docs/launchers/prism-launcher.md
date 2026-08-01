@@ -4,7 +4,7 @@ Prism Launcher 是一款跨平台 Minecraft 启动器。它是 MultiMC 的一个
 
 ![Prism Launcher](https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/main/public/img/screenshots/LauncherDark.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                                             |
 | ----------------- | ---------------------------------------------- |

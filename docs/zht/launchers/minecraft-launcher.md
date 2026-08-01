@@ -4,7 +4,7 @@ Minecraft Launcher 是由 Mojang 官方出品的 Minecraft 啟動器，用於在
 
 ![Minecraft Launcher](https://r2.oscsmc.baka.ac.cn/57d937e4-a9cf-4c86-a7d9-705ad9f8925a.png)
 
-> 資訊更新時間：2026-06-20
+> 資訊更新時間：2026-08-01
 
 | 特性                | 詳情                      |
 | ----------------- | ----------------------- |

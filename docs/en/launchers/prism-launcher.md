@@ -4,7 +4,7 @@ Prism Launcher is a cross-platform Minecraft launcher. It is a fork of MultiMC a
 
 ![Prism Launcher](https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/main/public/img/screenshots/LauncherDark.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                                        |
 | --------------------- | ---------------------------------------------- |

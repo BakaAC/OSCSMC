@@ -4,7 +4,7 @@ ATLauncher is a powerful Minecraft launcher whose core feature is the integratio
 
 ![ATLauncher](https://r2.oscsmc.baka.ac.cn/45c9e321-bd2a-429a-ad81-1a12047bcc18.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details |
 | --------------------- | --------------------------------- |

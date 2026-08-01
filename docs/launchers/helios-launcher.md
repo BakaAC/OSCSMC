@@ -4,7 +4,7 @@ Helios Launcher（原 Electron Launcher）是由 Daniel Scalzi 维护的 Electro
 
 ![Helios Launcher](https://i.imgur.com/6o7SmH6.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                          |
 | ----------------- | --------------------------- |

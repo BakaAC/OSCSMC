@@ -4,7 +4,7 @@ PCL Community Edition (PCL-CE) 是由 [PCL Community](https://github.com/PCL-Com
 
 ![PCL Community Edition](https://www.pclc.cc/img/pcl-ce/Homepage.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                                             |
 | ----------------- | ---------------------------------------------- |
@@ -14,7 +14,7 @@ PCL Community Edition (PCL-CE) 是由 [PCL Community](https://github.com/PCL-Com
 
 ## 下载地址
 
-[GitHub Releases](https://github.com/PCL-Community/PCL-CE/releases/latest) / [v2.14.6 x64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.14.6/PCL2_CE_Release_x64.exe) / [v2.14.6 ARM64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.14.6/PCL2_CE_Release_ARM64.exe) / [源代码仓库](https://github.com/PCL-Community/PCL-CE)。
+[GitHub Releases](https://github.com/PCL-Community/PCL-CE/releases/latest) / [v2.15.0 x64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.15.0/PCL2_CE_Release_x64.exe) / [v2.15.0 ARM64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.15.0/PCL2_CE_Release_ARM64.exe) / [源代码仓库](https://github.com/PCL-Community/PCL-CE)。
 
 官方 Release 说明还提供 [Mirror 酱高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)，需要 Mirror 酱 CDK。
 

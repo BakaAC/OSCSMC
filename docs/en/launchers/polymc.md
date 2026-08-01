@@ -4,7 +4,7 @@ PolyMC is a cross-platform Minecraft launcher. It is a fork of MultiMC and is no
 
 ![PolyMC](https://raw.githubusercontent.com/PolyMC/polymc.github.io/master/src/img/screenshots/LauncherDark.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                             |
 | --------------------- | ----------------------------------- |

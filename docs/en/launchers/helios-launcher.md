@@ -4,7 +4,7 @@ Helios Launcher, formerly Electron Launcher, is a custom Minecraft launcher main
 
 ![Helios Launcher](https://i.imgur.com/6o7SmH6.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                     |
 | --------------------- | --------------------------- |

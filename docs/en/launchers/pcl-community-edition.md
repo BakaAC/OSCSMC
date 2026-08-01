@@ -4,7 +4,7 @@ PCL Community Edition (PCL-CE) is a community edition maintained by [PCL Communi
 
 ![PCL Community Edition](https://www.pclc.cc/img/pcl-ce/Homepage.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                                                        |
 | --------------------- | -------------------------------------------------------------- |
@@ -14,7 +14,7 @@ PCL Community Edition (PCL-CE) is a community edition maintained by [PCL Communi
 
 ## Downloads
 
-[GitHub Releases](https://github.com/PCL-Community/PCL-CE/releases/latest) / [v2.14.6 x64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.14.6/PCL2_CE_Release_x64.exe) / [v2.14.6 ARM64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.14.6/PCL2_CE_Release_ARM64.exe) / [source repository](https://github.com/PCL-Community/PCL-CE).
+[GitHub Releases](https://github.com/PCL-Community/PCL-CE/releases/latest) / [v2.15.0 x64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.15.0/PCL2_CE_Release_x64.exe) / [v2.15.0 ARM64](https://github.com/PCL-Community/PCL-CE/releases/download/v2.15.0/PCL2_CE_Release_ARM64.exe) / [source repository](https://github.com/PCL-Community/PCL-CE).
 
 The official Release notes also provide a [MirrorChyan high-speed download source](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release), which requires a MirrorChyan CDK.
 
