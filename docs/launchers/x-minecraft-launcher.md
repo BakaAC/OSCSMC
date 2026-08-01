@@ -4,7 +4,7 @@ X Minecraft Launcher (XMCL) 是由 Voxelum 维护的跨平台 Minecraft 启动�
 
 ![X Minecraft Launcher](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性       | 详情                                |
 | -------- | --------------------------------- |

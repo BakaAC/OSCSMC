@@ -2,7 +2,7 @@
 
 BakaXL 是由 [TT702](https://afdian.net/a/TT702) 主導開發的 Minecraft 啟動器。BakaXL 共有 4 個大版本，其中 1.X 和 2.X 已經進入 EOL 狀態；官方路線圖顯示，BakaXL 3.0 僅安全維護，BakaXL 4.0 處於早期預覽階段。
 
-> 資訊更新時間：2026-06-20
+> 資訊更新時間：2026-08-01
 
 # BakaXL 3
 
@@ -44,7 +44,7 @@ BakaXL 4 是下一代 BakaXL，官方文件說明目前處於早期預覽階段�
 
 ## 下載地址
 
-BakaXL 4 早期預覽版：[GitHub Releases](https://github.com/BakaXL-Launcher/BakaXL/releases)。最新已核對的 Bunny Channel 構建為 `4.0.0+bunny-03b372f`，發布時間為 2026-06-20。
+BakaXL 4 早期預覽版：[GitHub Releases](https://github.com/BakaXL-Launcher/BakaXL/releases)。最新已核對的 Bunny Channel 構建為 `4.0.0+bunny-cd522c4`，發布時間為 2026-07-28。
 
 ## 特色功能
 

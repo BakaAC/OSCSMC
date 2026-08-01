@@ -4,7 +4,7 @@ ElyPrismLauncher (also known as PineconeMC) is a fork of Prism Launcher. Its cor
 
 ![ElyPrismLauncher](https://elyprismlauncher.github.io/assets/png/screenshot.png)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                           |
 | --------------------- | --------------------------------- |

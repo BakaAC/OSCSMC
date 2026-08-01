@@ -4,7 +4,7 @@ GDLauncher 是由 GorillaDevs Inc. 维护的跨平台 Minecraft 启动器。当�
 
 ![GDLauncher](https://cdn.gdl.gg/assets/website-home-app-screenshot.jpg)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                                |
 | ----------------- | --------------------------------- |

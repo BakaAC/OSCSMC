@@ -4,7 +4,7 @@ HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://github.com/huangh
 
 ![Hello Minecraft! Launcher](https://r2.oscsmc.baka.ac.cn/b49622e3-b480-4902-8bd8-a56aa5971bd2.png)
 
-> 信息更新时间：2026-06-20
+> 信息更新时间：2026-08-01
 
 | 特性                | 详情                                             |
 | ----------------- | ---------------------------------------------- |

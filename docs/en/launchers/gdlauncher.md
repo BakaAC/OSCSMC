@@ -4,7 +4,7 @@ GDLauncher is a cross-platform Minecraft launcher maintained by GorillaDevs Inc.
 
 ![GDLauncher](https://cdn.gdl.gg/assets/website-home-app-screenshot.jpg)
 
-> Last verified: 2026-06-20
+> Last verified: 2026-08-01
 
 | Feature               | Details                            |
 | --------------------- | ---------------------------------- |
