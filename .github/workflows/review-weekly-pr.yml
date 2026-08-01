@@ -57,8 +57,8 @@ jobs:
             3. 只读审查：不要修改、提交或推送任何文件。
             4. 审查结论：
                - 如果环境变量 REVIEW_TOKEN 非空：先执行 `export GH_TOKEN="$REVIEW_TOKEN"` 切换 token，然后：
-                 - 审查通过：执行 `gh pr review --approve --body "<审查摘要>"` 批准本 PR；
-                 - 存在问题：执行 `gh pr review --request-changes --body "<问题清单>"` 请求修改。
+                 - 审查通过：执行 `gh pr review --approve --body "<审查摘要>"` 批准本 PR，随后执行 `gh pr merge --auto` 开启自动合并（审查通过后自动合并）；如果 `gh pr merge --auto` 失败（例如仓库未启用自动合并），用 `gh issue comment ${{ github.event.pull_request.number }}` 评论说明审查已通过但需手动合并；
+                 - 存在问题：执行 `gh pr review --request-changes --body "<问题清单>"` 请求修改，不执行自动合并。
                - 如果环境变量 REVIEW_TOKEN 为空：本 PR 由机器人创建，无法用当前 token 提交正式审查，改用普通评论发布结论：
                  - 审查通过：执行 `gh issue comment ${{ github.event.pull_request.number }} --body "审查通过：<审查摘要>"`；
                  - 存在问题：执行 `gh issue comment ${{ github.event.pull_request.number }} --body "审查未通过：<问题清单>"`。
