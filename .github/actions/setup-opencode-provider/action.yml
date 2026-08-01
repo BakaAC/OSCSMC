@@ -13,6 +13,11 @@ inputs:
   model:
     description: Model name (e.g. deepseek-v4-flash)
     required: true
+  reasoning_effort:
+    description: >-
+      Optional reasoning effort for the model (e.g. none, minimal, low, medium,
+      high, xhigh, max). Omitted from the generated config when not set.
+    required: false
 
 runs:
   using: composite
@@ -31,11 +36,13 @@ runs:
         LLM_API_URL: ${{ inputs.api_url }}
         LLM_API_TOKEN: ${{ inputs.api_token }}
         LLM_MODEL: ${{ inputs.model }}
+        LLM_REASONING_EFFORT: ${{ inputs.reasoning_effort }}
       run: |
         jq -n \
           --arg url "$LLM_API_URL" \
           --arg key "$LLM_API_TOKEN" \
           --arg model "$LLM_MODEL" \
-          '{provider:{custom:{npm:"@ai-sdk/openai-compatible",name:"OpenAI-compatible Provider",options:{baseURL:$url,apiKey:$key},models:{($model):{name:$model}}}}}' \
+          --arg effort "$LLM_REASONING_EFFORT" \
+          '{provider:{custom:{npm:"@ai-sdk/openai-compatible",name:"OpenAI-compatible Provider",options:{baseURL:$url,apiKey:$key},models:{($model):(if $effort == "" then {name:$model} else {name:$model,options:{reasoningEffort:$effort}} end)}}}}' \
           > opencode.json
         echo "Generated opencode.json with model: custom/$LLM_MODEL"

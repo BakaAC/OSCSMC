@@ -22,9 +22,10 @@ jobs:
 
       # 根据 GitHub Secrets 生成 OpenCode 自定义 provider 配置（OpenAI 兼容 API）
       # 需要配置以下 Secrets：
-      #   LLM_API_URL   - OpenAI 兼容 API 的 Base URL，如 https://api.deepseek.com/v1
-      #   LLM_API_TOKEN - API Token
-      #   LLM_MODEL     - 模型名，如 deepseek-v4-flash
+      #   LLM_API_URL          - OpenAI 兼容 API 的 Base URL，如 https://api.deepseek.com/v1
+      #   LLM_API_TOKEN        - API Token
+      #   LLM_MODEL            - 模型名，如 deepseek-v4-flash
+      #   LLM_REASONING_EFFORT - （可选）思考等级，如 none/minimal/low/medium/high/xhigh/max
       # 生成的 opencode.json 已被 .gitignore 忽略，不会被提交
       - name: Setup OpenCode provider from secrets
         uses: ./.github/actions/setup-opencode-provider
@@ -32,6 +33,7 @@ jobs:
           api_url: ${{ secrets.LLM_API_URL }}
           api_token: ${{ secrets.LLM_API_TOKEN }}
           model: ${{ secrets.LLM_MODEL }}
+          reasoning_effort: ${{ secrets.LLM_REASONING_EFFORT }}
 
       - name: Run OpenCode agent to update launcher info
         uses: anomalyco/opencode/github@latest

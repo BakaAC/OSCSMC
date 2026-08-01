@@ -29,13 +29,15 @@ jobs:
         with:
           persist-credentials: false
 
-      # 复用与定时任务相同的 API 配置（LLM_API_URL / LLM_API_TOKEN / LLM_MODEL Secrets）
+      # 复用与定时任务相同的 API 配置（LLM_API_URL / LLM_API_TOKEN / LLM_MODEL Secrets），
+      # 可选 LLM_REASONING_EFFORT 控制思考等级
       - name: Setup OpenCode provider from secrets
         uses: ./.github/actions/setup-opencode-provider
         with:
           api_url: ${{ secrets.LLM_API_URL }}
           api_token: ${{ secrets.LLM_API_TOKEN }}
           model: ${{ secrets.LLM_MODEL }}
+          reasoning_effort: ${{ secrets.LLM_REASONING_EFFORT }}
 
       - name: Run OpenCode agent to add the requested launcher
         uses: anomalyco/opencode/github@latest
