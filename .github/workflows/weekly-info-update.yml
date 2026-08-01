@@ -1,0 +1,66 @@
+name: Weekly Info Update
+
+on:
+  schedule:
+    # 每周一 00:00（Asia/Shanghai, UTC+8）=> 周日 16:00 UTC
+    # GitHub Actions 的 cron 使用 UTC 时间
+    - cron: "0 16 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      # 根据 GitHub Secrets 生成 OpenCode 自定义 provider 配置（OpenAI 兼容 API）
+      # 需要配置以下 Secrets：
+      #   LLM_API_URL   - OpenAI 兼容 API 的 Base URL，如 https://api.deepseek.com/v1
+      #   LLM_API_TOKEN - API Token
+      #   LLM_MODEL     - 模型名，如 deepseek-v4-flash
+      # 生成的 opencode.json 已被 .gitignore 忽略，不会被提交
+      - name: Generate OpenCode provider config from secrets
+        shell: bash
+        env:
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_TOKEN: ${{ secrets.LLM_API_TOKEN }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: |
+          if [[ -z "$LLM_API_URL" || -z "$LLM_API_TOKEN" || -z "$LLM_MODEL" ]]; then
+            echo "::error::Missing required secrets: LLM_API_URL / LLM_API_TOKEN / LLM_MODEL"
+            exit 1
+          fi
+          jq -n \
+            --arg url "$LLM_API_URL" \
+            --arg key "$LLM_API_TOKEN" \
+            --arg model "$LLM_MODEL" \
+            '{provider:{custom:{npm:"@ai-sdk/openai-compatible",name:"OpenAI-compatible Provider",options:{baseURL:$url,apiKey:$key},models:{($model):{name:$model}}}}}' \
+            > opencode.json
+          echo "Generated opencode.json with model: custom/$LLM_MODEL"
+
+      - name: Run OpenCode agent to update launcher info
+        uses: anomalyco/opencode/github@latest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          use_github_token: true
+          share: false
+          model: custom/${{ secrets.LLM_MODEL }}
+          prompt: |
+            阅读仓库根目录的 UPDATE_INFO_AGENTS.md，并严格遵循其中的"任务目标""编写规范""三语一致性要求"和"收尾工作"执行本周的信息更新任务：
+
+            1. 根据 UPDATE_INFO_AGENTS.md 的要求，检查 docs/launchers、docs/en/launchers、docs/zht/launchers 三个文件夹中的启动器文档，确认是否存在需要更新的信息（以官方第一方来源为准）。
+            2. 如果存在需要更新的内容：
+               - 在新建分支上完成三个语言版本的文档更新（分支名建议为 update-info-YYYYMMDD）；
+               - 提交 commit，提交信息注明更新内容和信息来源；
+               - 推送分支并创建 Pull Request，PR 标题与描述中说明更新内容和信息来源。
+            3. 如果不存在需要更新的内容：
+               - 不做任何修改，不创建 commit，不推送分支，不创建 Pull Request，直接结束任务。
+            4. 只修改本次任务相关的文档文件；不要修改或提交 opencode.json、.github 目录等无关文件。
