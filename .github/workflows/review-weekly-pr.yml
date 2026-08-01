@@ -1,0 +1,65 @@
+name: Review Weekly Update PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  # 同一 PR 的审查串行执行，新提交推送时取消旧审查
+  group: review-weekly-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    # 只审查每周定时工作流生成的 PR（分支名 update-info-*）
+    if: startsWith(github.event.pull_request.head.ref, 'update-info-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      # 复用与定时任务相同的 API 配置（LLM_API_URL / LLM_API_TOKEN / LLM_MODEL Secrets）
+      - name: Setup OpenCode provider from secrets
+        uses: ./.github/actions/setup-opencode-provider
+        with:
+          api_url: ${{ secrets.LLM_API_URL }}
+          api_token: ${{ secrets.LLM_API_TOKEN }}
+          model: ${{ secrets.LLM_MODEL }}
+          reasoning_effort: ${{ secrets.LLM_REASONING_EFFORT }}
+
+      - name: Run OpenCode agent to review the weekly PR
+        uses: anomalyco/opencode/github@latest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          # 可选：组织成员 PAT（需 repo 权限），用于对机器人作者创建的 PR 提交正式审查。
+          # 未配置时审查结论以普通评论形式发布，无法正式批准。
+          REVIEW_TOKEN: ${{ secrets.REVIEW_TOKEN }}
+        with:
+          use_github_token: true
+          share: false
+          model: custom/${{ secrets.LLM_MODEL }}
+          prompt: |
+            审查本 Pull Request（由每周定时任务自动生成的启动器信息更新，PR 编号：${{ github.event.pull_request.number }}）。
+
+            1. 使用 `gh pr view ${{ github.event.pull_request.number }}` 和 `gh pr diff ${{ github.event.pull_request.number }}` 查看变更内容。
+            2. 对照仓库根目录 UPDATE_INFO_AGENTS.md 的"编写规范""信息更新时间行""三语一致性要求"和"收尾工作"逐项检查：
+               - 三个语言版本是否同步更新（docs/launchers、docs/en/launchers、docs/zht/launchers）；
+               - 页面结构是否合规（一级标题、简介、图片、信息更新时间行、三大特性表格、下载地址、特色功能、开源协议）；
+               - 信息更新时间行是否更新，三语日期是否一致；
+               - 表格格式是否正确，图片与链接是否使用 https 且可访问；
+               - 是否包含与本次更新无关的文件改动。
+            3. 只读审查：不要修改、提交或推送任何文件。
+            4. 审查结论：
+               - 如果环境变量 REVIEW_TOKEN 非空：先执行 `export GH_TOKEN="$REVIEW_TOKEN"` 切换 token，然后：
+                 - 审查通过：执行 `gh pr review --approve --body "<审查摘要>"` 批准本 PR；
+                 - 存在问题：执行 `gh pr review --request-changes --body "<问题清单>"` 请求修改。
+               - 如果环境变量 REVIEW_TOKEN 为空：本 PR 由机器人创建，无法用当前 token 提交正式审查，改用普通评论发布结论：
+                 - 审查通过：执行 `gh issue comment ${{ github.event.pull_request.number }} --body "审查通过：<审查摘要>"`；
+                 - 存在问题：执行 `gh issue comment ${{ github.event.pull_request.number }} --body "审查未通过：<问题清单>"`。
+            5. 最终回复会被自动发布到本 PR：保持简洁，不要复述内部步骤。
