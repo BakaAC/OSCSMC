@@ -40,6 +40,7 @@ export const zhs = defineConfig({
           { text: 'ATLauncher', link: '/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/launchers/pandoralauncher' },
           { text: 'ElyPrismLauncher', link: '/launchers/elyprismlauncher' },
+          { text: 'Refract', link: '/launchers/refract' },
         ]
       },
       {

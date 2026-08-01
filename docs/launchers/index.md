@@ -132,6 +132,14 @@ ElyPrismLauncher（又称 PineconeMC）是 Prism Launcher 的一个分支版本�
 
 前往[此页面](./elyprismlauncher)了解更多。
 
+## Refract
+
+Refract 是由 [RefractMC](https://github.com/RefractMC) 维护的现代开源 Minecraft 启动器，基于 Tauri 构建，官方介绍为具有可高度自定义的界面引擎，并原生集成 Modrinth 与 CurseForge 内容平台。
+
+该软件在 [GPL-3.0](https://github.com/RefractMC/Refract_MC/blob/main/LICENSE) 协议下发布。
+
+前往[此页面](./refract)了解更多。
+
 ## 为什么我使用 / 开发的启动器没有列出来
 
 Minecraft 作为一个历史悠久的社区，所诞生的启动器数不胜数，我们没有时间和精力去一个个使用并且给出使用报告。

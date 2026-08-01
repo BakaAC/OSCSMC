@@ -132,6 +132,14 @@ ElyPrismLauncher (also known as PineconeMC) is a fork of Prism Launcher that fea
 
 Go to [this page](./elyprismlauncher) to learn more.
 
+## Refract
+
+Refract is a modern, open-source Minecraft launcher maintained by [RefractMC](https://github.com/RefractMC), built with Tauri and officially described as featuring an ultra-customizable UI engine with native Modrinth and CurseForge integration.
+
+This software is released under [GPL-3.0](https://github.com/RefractMC/Refract_MC/blob/main/LICENSE).
+
+Go to [this page](./refract) to learn more.
+
 ## Why is the launcher I use/develop not listed?
 
 Minecraft, as a long-standing community, has produced countless launchers. We do not have the time and energy to use and report on each one.

@@ -40,6 +40,7 @@ export const zht = defineConfig({
           { text: 'ATLauncher', link: '/zht/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/zht/launchers/pandoralauncher' },
           { text: 'ElyPrismLauncher', link: '/zht/launchers/elyprismlauncher' },
+          { text: 'Refract', link: '/zht/launchers/refract' },
         ]
       },
       {

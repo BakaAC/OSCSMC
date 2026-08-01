@@ -40,6 +40,7 @@ export const en = defineConfig({
           { text: 'ATLauncher', link: '/en/launchers/atlauncher' },
           { text: 'PandoraLauncher', link: '/en/launchers/pandoralauncher' },
           { text: 'ElyPrismLauncher', link: '/en/launchers/elyprismlauncher' },
+          { text: 'Refract', link: '/en/launchers/refract' },
         ]
       },
       {
