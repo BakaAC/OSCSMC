@@ -26,24 +26,12 @@ jobs:
       #   LLM_API_TOKEN - API Token
       #   LLM_MODEL     - 模型名，如 deepseek-v4-flash
       # 生成的 opencode.json 已被 .gitignore 忽略，不会被提交
-      - name: Generate OpenCode provider config from secrets
-        shell: bash
-        env:
-          LLM_API_URL: ${{ secrets.LLM_API_URL }}
-          LLM_API_TOKEN: ${{ secrets.LLM_API_TOKEN }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-        run: |
-          if [[ -z "$LLM_API_URL" || -z "$LLM_API_TOKEN" || -z "$LLM_MODEL" ]]; then
-            echo "::error::Missing required secrets: LLM_API_URL / LLM_API_TOKEN / LLM_MODEL"
-            exit 1
-          fi
-          jq -n \
-            --arg url "$LLM_API_URL" \
-            --arg key "$LLM_API_TOKEN" \
-            --arg model "$LLM_MODEL" \
-            '{provider:{custom:{npm:"@ai-sdk/openai-compatible",name:"OpenAI-compatible Provider",options:{baseURL:$url,apiKey:$key},models:{($model):{name:$model}}}}}' \
-            > opencode.json
-          echo "Generated opencode.json with model: custom/$LLM_MODEL"
+      - name: Setup OpenCode provider from secrets
+        uses: ./.github/actions/setup-opencode-provider
+        with:
+          api_url: ${{ secrets.LLM_API_URL }}
+          api_token: ${{ secrets.LLM_API_TOKEN }}
+          model: ${{ secrets.LLM_MODEL }}
 
       - name: Run OpenCode agent to update launcher info
         uses: anomalyco/opencode/github@latest

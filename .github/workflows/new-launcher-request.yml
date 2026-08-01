@@ -1,0 +1,60 @@
+name: New Launcher Request
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  # 同一 Issue 上的 /oc new 请求串行执行，避免重复 PR
+  group: new-launcher-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  opencode-new:
+    # 仅仓库所有者组织（BakaAC）的成员可触发：
+    # author_association == 'MEMBER'（组织成员）或 'OWNER'（组织所有者）
+    if: |
+      contains(github.event.comment.body, '/oc new') &&
+      (github.event.comment.author_association == 'MEMBER' ||
+       github.event.comment.author_association == 'OWNER')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      # 复用与定时任务相同的 API 配置（LLM_API_URL / LLM_API_TOKEN / LLM_MODEL Secrets）
+      - name: Setup OpenCode provider from secrets
+        uses: ./.github/actions/setup-opencode-provider
+        with:
+          api_url: ${{ secrets.LLM_API_URL }}
+          api_token: ${{ secrets.LLM_API_TOKEN }}
+          model: ${{ secrets.LLM_MODEL }}
+
+      - name: Run OpenCode agent to add the requested launcher
+        uses: anomalyco/opencode/github@latest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          use_github_token: true
+          share: false
+          mentions: /oc new
+          model: custom/${{ secrets.LLM_MODEL }}
+          prompt: |
+            用户在本仓库的 Issue 中请求新增一个 Minecraft 启动器（Issue 编号：${{ github.event.issue.number }}）。
+
+            请执行以下任务：
+            1. 使用 `gh issue view ${{ github.event.issue.number }}` 获取本 Issue 的完整上下文（标题、正文和评论），确定用户请求新增的启动器。
+            2. 阅读仓库根目录的 NEW_INFO_AGENTS.md，严格遵循其中的"前置检查""任务流程""页面编写规范""三语一致性要求"和"收尾工作"。
+            3. 如果 Issue 提供的信息不足以确定启动器，或启动器不符合 NEW_INFO_AGENTS.md 的收录标准：回复本 Issue 说明原因，然后结束任务；不创建 commit、不推送分支、不创建 Pull Request。
+            4. 如果满足条件：
+               - 在新建分支上完成 docs/launchers、docs/en/launchers、docs/zht/launchers 三个语言版本的启动器文档，并同步更新索引页与侧边栏配置；
+               - 提交 commit（提交信息注明更新内容和信息来源），推送分支并创建 Pull Request；
+               - 使用 `gh` 在本 Issue 中回复创建的 Pull Request 链接。
+            5. 只修改本次任务相关的文档文件；不要修改或提交 opencode.json、.github 目录等无关文件。

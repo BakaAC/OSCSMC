@@ -1,0 +1,41 @@
+name: Setup OpenCode provider
+description: >-
+  Generate opencode.json for an OpenAI-compatible provider from secrets.
+  The generated file is ignored by .gitignore and never committed.
+
+inputs:
+  api_url:
+    description: OpenAI-compatible API base URL (e.g. https://api.deepseek.com/v1)
+    required: true
+  api_token:
+    description: API token
+    required: true
+  model:
+    description: Model name (e.g. deepseek-v4-flash)
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Validate provider inputs
+      shell: bash
+      run: |
+        if [[ -z "${{ inputs.api_url }}" || -z "${{ inputs.api_token }}" || -z "${{ inputs.model }}" ]]; then
+          echo "::error::Missing required provider inputs: api_url / api_token / model"
+          exit 1
+        fi
+
+    - name: Generate opencode.json
+      shell: bash
+      env:
+        LLM_API_URL: ${{ inputs.api_url }}
+        LLM_API_TOKEN: ${{ inputs.api_token }}
+        LLM_MODEL: ${{ inputs.model }}
+      run: |
+        jq -n \
+          --arg url "$LLM_API_URL" \
+          --arg key "$LLM_API_TOKEN" \
+          --arg model "$LLM_MODEL" \
+          '{provider:{custom:{npm:"@ai-sdk/openai-compatible",name:"OpenAI-compatible Provider",options:{baseURL:$url,apiKey:$key},models:{($model):{name:$model}}}}}' \
+          > opencode.json
+        echo "Generated opencode.json with model: custom/$LLM_MODEL"
