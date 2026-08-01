@@ -54,9 +54,10 @@ jobs:
             请执行以下任务：
             1. 使用 `gh issue view ${{ github.event.issue.number }}` 获取本 Issue 的完整上下文（标题、正文和评论），确定用户请求新增的启动器。
             2. 阅读仓库根目录的 NEW_INFO_AGENTS.md，严格遵循其中的"前置检查""任务流程""页面编写规范""三语一致性要求"和"收尾工作"。
-            3. 如果 Issue 提供的信息不足以确定启动器，或启动器不符合 NEW_INFO_AGENTS.md 的收录标准：回复本 Issue 说明原因，然后结束任务；不创建 commit、不推送分支、不创建 Pull Request。
+            3. 如果 Issue 提供的信息不足以确定启动器，或启动器不符合 NEW_INFO_AGENTS.md 的收录标准：使用 `gh issue comment` 在本 Issue 发布一条简洁的拒绝说明（说明不符合收录标准的原因即可，不要复述内部执行步骤），然后结束任务；不创建 commit、不推送分支、不创建 Pull Request。
             4. 如果满足条件：
                - 在新建分支上完成 docs/launchers、docs/en/launchers、docs/zht/launchers 三个语言版本的启动器文档，并同步更新索引页与侧边栏配置；
                - 提交 commit（提交信息注明更新内容和信息来源），推送分支并创建 Pull Request；
                - 使用 `gh` 在本 Issue 中回复创建的 Pull Request 链接。
-            5. 只修改本次任务相关的文档文件；不要修改或提交 opencode.json、.github 目录等无关文件。
+            5. 你的最终回复会被系统自动发布到本 Issue：请保持极简（例如“已处理完毕，详见上方回复。”），不要复述任务步骤、内部过程或信息来源清单。
+            6. 只修改本次任务相关的文档文件；不要修改或提交 opencode.json、.github 目录等无关文件。
