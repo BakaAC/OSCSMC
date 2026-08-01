@@ -30,7 +30,7 @@ MCBBS 闭站许久，不知道在哪里宣传自己的作品？
 
 请参照我们的[贡献者指南](/contribute/contributing)。
 
-或者是前往[爱发电](https://afdian.net/a/BakaInstitute)给我们投喂。
+或者是前往[爱发电](https://afdian.net/a/BakaInfinityHub)给我们投喂。
 
 亦或者是在我们的[项目主页](https://github.com/BakaInstitute/OSCSMC)提出 Issue。
 

@@ -6,8 +6,6 @@ BakaXL is a Minecraft launcher developed by [TT702](https://afdian.net/a/TT702).
 
 # BakaXL 3
 
-## BakaXL 3
-
 BakaXL 3 is the currently usable Windows version of BakaXL, and the official roadmap marks it as security-maintenance-only.
 
 ![BakaXL 3](https://r2.oscsmc.baka.ac.cn/dc137f8a-6084-4d66-b9c4-13b4065603cc.png)
@@ -33,8 +31,6 @@ BakaXL 3 is the currently usable Windows version of BakaXL, and the official roa
 No open source license. The official repository states that BakaXL is not fully open source and only publishes part of the project. See [BakaXL-Launcher/BakaXL](https://github.com/BakaXL-Launcher/BakaXL) for details.
 
 # BakaXL 4
-
-## BakaXL 4
 
 BakaXL 4 is the next generation of BakaXL. The official documentation says it is currently in early preview and should not be used as a primary game launcher.
 

@@ -2,7 +2,7 @@
 
 PCL2 (Plain Craft Launcher 2) is a Minecraft launcher developed by [龙腾猫跃](https://afdian.net/a/LTCat). PCL commonly refers to PCL2, while the old PCL version is outdated.
 
-![Plain Craft Launcher 2](http://r2.oscsmc.baka.ac.cn/c80cb96e-cbdb-4513-bc1e-4e935e15f9ff.png)
+![Plain Craft Launcher 2](https://r2.oscsmc.baka.ac.cn/c80cb96e-cbdb-4513-bc1e-4e935e15f9ff.png)
 
 > Last verified: 2026-06-20
 

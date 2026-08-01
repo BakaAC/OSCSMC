@@ -11,7 +11,7 @@ Minecraft 是一款有著 15 年歷史的老遊戲，圍繞著這款遊戲所誕
 嚐鮮用上了 Linux，卻找不到能用的啟動器？
 想跟朋友找整合包玩，卻不知道哪裡去找？
 MCBBS 閉站許久，不知道在哪裡宣傳自己的作品？
-.....
+......
 ```
 
 因此，為了解決這個痛點，OSCSMC (Minecraft 一站式社區解決方案) 孕育而生。
@@ -28,9 +28,9 @@ MCBBS 閉站許久，不知道在哪裡宣傳自己的作品？
 
 ## 我也想為這個網站做出貢獻
 
-請參考我們的[貢獻者指南](/contribute/contributing)。
+請參考我們的[貢獻者指南](/zht/contribute/contributing)。
 
-或是前往[愛發電](https://afdian.net/a/BakaInstitute)給我們投餵。
+或是前往[愛發電](https://afdian.net/a/BakaInfinityHub)給我們投餵。
 
 亦或是在我們的[專案首頁](https://github.com/BakaInstitute/OSCSMC)提出 Issue。
 

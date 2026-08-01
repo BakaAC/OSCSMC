@@ -12,7 +12,7 @@ Launched on 6/15/2024, this project was originally intended to consolidate scatt
 
 ### Project Architecture
 
-- [Vitepress](https://vitepress.dev/) Driver to build static web pages
+- [Vitepress](https://vitepress.dev/) Driven to build static web pages
 - [CloudFlare](https://www.cloudflare.com/) provides static website deployment services
 
 ### Precautions

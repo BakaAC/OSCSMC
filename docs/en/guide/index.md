@@ -10,6 +10,7 @@ I believe you must have encountered the following problems:
 I changed to a new computer. Should I continue to use PCL or try other launchers?
 I tried Linux but couldn't find a usable launcher?
 I want to find an integrated package to play with my friends, but I don't know where to find it?
+MCBBS has been closed for a long time, and I don't know where to promote my work?
 ......
 ```
 
@@ -27,9 +28,9 @@ See the list on the right? It lists everything you need.
 
 ## I also want to contribute to this website.
 
-Please refer to our [Contributor Guide](/contribute/contributing).
+Please refer to our [Contributor Guide](/en/contribute/contributing).
 
-Or go to [AFDian](https://afdian.net/a/BakaInstitute) to feed us.
+Or go to [AFDian](https://afdian.net/a/BakaInfinityHub) to feed us.
 
 Or raise an issue on our [project homepage](https://github.com/BakaInstitute/OSCSMC).
 

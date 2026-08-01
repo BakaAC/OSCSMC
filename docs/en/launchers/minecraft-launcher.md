@@ -2,7 +2,7 @@
 
 Minecraft Launcher is the official Minecraft launcher from Mojang for accessing and managing Minecraft games on PC.
 
-![Minecraft Launcher](http://r2.oscsmc.baka.ac.cn/57d937e4-a9cf-4c86-a7d9-705ad9f8925a.png)
+![Minecraft Launcher](https://r2.oscsmc.baka.ac.cn/57d937e4-a9cf-4c86-a7d9-705ad9f8925a.png)
 
 > Last verified: 2026-06-20
 

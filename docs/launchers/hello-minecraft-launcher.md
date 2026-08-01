@@ -2,7 +2,7 @@
 
 HMCL (Hello Minecraft! Launcher) 是由 [huanghongxun](https://github.com/huanghongxun) 主导开发的开源、跨平台 Minecraft 启动器。
 
-![Hello Minecraft! Launcher](http://r2.oscsmc.baka.ac.cn/b49622e3-b480-4902-8bd8-a56aa5971bd2.png)
+![Hello Minecraft! Launcher](https://r2.oscsmc.baka.ac.cn/b49622e3-b480-4902-8bd8-a56aa5971bd2.png)
 
 > 信息更新时间：2026-06-20
 

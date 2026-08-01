@@ -2,7 +2,7 @@
 
 Minecraft Launcher 是由 Mojang 官方出品的 Minecraft 启动器，用于在 PC 上访问和管理 Minecraft 游戏。
 
-![Minecraft Launcher](http://r2.oscsmc.baka.ac.cn/57d937e4-a9cf-4c86-a7d9-705ad9f8925a.png)
+![Minecraft Launcher](https://r2.oscsmc.baka.ac.cn/57d937e4-a9cf-4c86-a7d9-705ad9f8925a.png)
 
 > 信息更新时间：2026-06-20
 

@@ -6,8 +6,6 @@ BakaXL 是由 [TT702](https://afdian.net/a/TT702) 主導開發的 Minecraft 啟�
 
 # BakaXL 3
 
-## BakaXL 3
-
 BakaXL 3 是 BakaXL 目前仍可使用的 Windows 版本，官方路線圖將其標記為「僅安全更新」。
 
 ![BakaXL 3](https://r2.oscsmc.baka.ac.cn/dc137f8a-6084-4d66-b9c4-13b4065603cc.png)
@@ -33,8 +31,6 @@ BakaXL 3 是 BakaXL 目前仍可使用的 Windows 版本，官方路線圖將其
 無開源協議。官方倉庫說明 BakaXL 不是完全開源軟體，僅公開了部分專案內容，詳情可查看 [BakaXL-Launcher/BakaXL](https://github.com/BakaXL-Launcher/BakaXL)。
 
 # BakaXL 4
-
-## BakaXL 4
 
 BakaXL 4 是下一代 BakaXL，官方文件說明目前處於早期預覽階段，不建議作為主要遊戲啟動器使用。
 

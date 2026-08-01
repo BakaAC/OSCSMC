@@ -4,7 +4,7 @@ X Minecraft Launcher (XMCL) is a cross-platform Minecraft launcher maintained by
 
 ![X Minecraft Launcher](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-> Information updated: 2026-06-20
+> Last verified: 2026-06-20
 
 | Feature               | Details                                        |
 | --------------------- | ---------------------------------------------- |

@@ -2,7 +2,7 @@
 
 PCL2 (Plain Craft Launcher 2) 是由 [龙腾猫跃](https://afdian.net/a/LTCat) 开发的 Minecraft 启动器。PCL 通常用于指代 PCL2，旧版 PCL 已过时。
 
-![Plain Craft Launcher 2](http://r2.oscsmc.baka.ac.cn/c80cb96e-cbdb-4513-bc1e-4e935e15f9ff.png)
+![Plain Craft Launcher 2](https://r2.oscsmc.baka.ac.cn/c80cb96e-cbdb-4513-bc1e-4e935e15f9ff.png)
 
 > 信息更新时间：2026-06-20
 

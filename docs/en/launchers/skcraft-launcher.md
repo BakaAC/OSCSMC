@@ -4,7 +4,7 @@ SKCraft Launcher is an open-source Minecraft modpack launcher platform maintaine
 
 ![SKCraft Launcher](https://raw.githubusercontent.com/SKCraft/Launcher/master/readme/launcher.png)
 
-> Information updated: 2026-06-20
+> Last verified: 2026-06-20
 
 | Feature               | Details                             |
 | --------------------- | ----------------------------------- |

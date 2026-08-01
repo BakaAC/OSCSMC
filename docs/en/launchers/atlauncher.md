@@ -6,7 +6,7 @@ ATLauncher is a powerful Minecraft launcher whose core feature is the integratio
 
 > Last verified: 2026-06-20
 
-| Feature               | Details
+| Feature               | Details |
 | --------------------- | --------------------------------- |
 | Authentication        | Microsoft Account / Offline Account |
 | Supported Mod Loaders | Forge / NeoForge / Fabric / Quilt |
