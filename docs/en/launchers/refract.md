@@ -4,7 +4,7 @@ Refract is a modern, open-source Minecraft launcher maintained by [RefractMC](ht
 
 ![Refract](https://refractmc.net/images/screenshots/library.png)
 
-> Last verified: 2026-08-01
+> Last verified: 2026-08-09
 
 | Feature | Details |
 | --- | --- |
@@ -14,7 +14,7 @@ Refract is a modern, open-source Minecraft launcher maintained by [RefractMC](ht
 
 ## Downloads
 
-[Official download page](https://refractmc.net/download/) / [GitHub Releases](https://github.com/RefractMC/Refract_MC/releases/latest) / [v1.3.2 Windows x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Windows-x64.exe) / [v1.3.2 macOS ARM64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-arm64.dmg) / [v1.3.2 macOS x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-x64.dmg) / [v1.3.2 Linux x86_64 AppImage](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.AppImage) / [v1.3.2 Linux amd64 deb](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-amd64.deb) / [v1.3.2 Linux x86_64 rpm](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.rpm) / [Source Repository](https://github.com/RefractMC/Refract_MC).
+[Official download page](https://refractmc.net/download/) / [GitHub Releases](https://github.com/RefractMC/Refract_MC/releases/latest) / [v1.3.3 Windows x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Windows-x64.exe) / [v1.3.3 macOS ARM64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-arm64.dmg) / [v1.3.3 macOS x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-x64.dmg) / [v1.3.3 Linux x86_64 AppImage](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.AppImage) / [v1.3.3 Linux amd64 deb](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-amd64.deb) / [v1.3.3 Linux x86_64 rpm](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.rpm) / [Source Repository](https://github.com/RefractMC/Refract_MC).
 
 ## Features
 
