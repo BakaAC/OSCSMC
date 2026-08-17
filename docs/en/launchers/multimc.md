@@ -4,7 +4,7 @@ MultiMC is a well-known, long-running cross-platform Minecraft launcher focused 
 
 ![MultiMC](https://multimc.org/images/screenshots/main.png)
 
-> Last verified: 2026-08-01
+> Last verified: 2026-08-17
 
 | Feature               | Details                             |
 | --------------------- | ----------------------------------- |

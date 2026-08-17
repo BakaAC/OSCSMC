@@ -4,7 +4,7 @@ PCL Community Edition (PCL-CE) is a community edition maintained by [PCL Communi
 
 ![PCL Community Edition](https://www.pclc.cc/img/pcl-ce/Homepage.png)
 
-> Last verified: 2026-08-01
+> Last verified: 2026-08-17
 
 | Feature               | Details                                                        |
 | --------------------- | -------------------------------------------------------------- |

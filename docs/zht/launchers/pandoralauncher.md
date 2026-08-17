@@ -4,7 +4,7 @@ PandoraLauncher (簡稱 Pandora) 是一款現代化的 Minecraft 啟動器，採
 
 ![PandoraLauncher](https://raw.githubusercontent.com/Moulberry/PandoraLauncher/refs/heads/master/screenshots/instance.png)
 
-> 資訊更新時間：2026-08-01
+> 資訊更新時間：2026-08-17
 
 | 特性       | 詳情                                |
 | -------- | --------------------------------- |
