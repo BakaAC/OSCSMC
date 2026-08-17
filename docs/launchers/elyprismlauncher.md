@@ -4,7 +4,7 @@ ElyPrismLauncher（又称 PineconeMC）是 Prism Launcher 的一个分支版本�
 
 ![ElyPrismLauncher](https://elyprismlauncher.github.io/assets/png/screenshot.png)
 
-> 信息更新时间：2026-08-01
+> 信息更新时间：2026-08-17
 
 | 特性       | 详情                                |
 | -------- | --------------------------------- |
