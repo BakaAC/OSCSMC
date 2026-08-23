@@ -4,7 +4,7 @@ Refract 是由 [RefractMC](https://github.com/RefractMC) 維護的現代開源 M
 
 ![Refract](https://refractmc.net/images/screenshots/library.png)
 
-> 資訊更新時間：2026-08-17
+> 資訊更新時間：2026-08-23
 
 | 特性 | 詳情 |
 | --- | --- |
@@ -14,7 +14,7 @@ Refract 是由 [RefractMC](https://github.com/RefractMC) 維護的現代開源 M
 
 ## 下載地址
 
-[官網下載頁](https://refractmc.net/download/) / [GitHub Releases](https://github.com/RefractMC/Refract_MC/releases/latest) / [v1.3.4 Windows x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Windows-x64.exe) / [v1.3.4 macOS ARM64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-arm64.dmg) / [v1.3.4 macOS x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-x64.dmg) / [v1.3.4 Linux x86_64 AppImage](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.AppImage) / [v1.3.4 Linux amd64 deb](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-amd64.deb) / [v1.3.4 Linux x86_64 rpm](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.rpm) / [原始碼倉庫](https://github.com/RefractMC/Refract_MC)。
+[官網下載頁](https://refractmc.net/download/) / [GitHub Releases](https://github.com/RefractMC/Refract_MC/releases/latest) / [v1.4.0 Windows x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Windows-x64.exe) / [v1.4.0 macOS ARM64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-arm64.dmg) / [v1.4.0 macOS x64](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-macOS-x64.dmg) / [v1.4.0 Linux x86_64 AppImage](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.AppImage) / [v1.4.0 Linux amd64 deb](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-amd64.deb) / [v1.4.0 Linux x86_64 rpm](https://github.com/RefractMC/Refract_MC/releases/latest/download/Refract-Linux-x86_64.rpm) / [原始碼倉庫](https://github.com/RefractMC/Refract_MC)。
 
 ## 特色功能
 
